@@ -8,7 +8,7 @@ public class Application {
         Printer printer = new Printer();
         Calculator calculator = new Calculator();
 
-        int money = input.MoneyInput();
+        int money = input.moneyInput();
         List<Lotto> lottos = store.buyLotto(money);
         printer.printLottoNumbers(lottos);
 
